@@ -1,5 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400&family=Roboto:wght@100;400;500;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  --hue: 359;
+  --base-color: hsl(var(--hue), 78%, 25%);
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font: 100 1rem 'Roboto', sans-serif;
+}
+
+.section {
+  padding: 5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.071);
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.divider-A {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsla(359, 36%, 57%, 1),
+    hsla(359, 65%, 88%, 0.34)
+  );
 }

@@ -1,0 +1,47 @@
+#home .image {
+  position: relative;
+}
+
+#home .image img {
+  width: 90%;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+#home .image::before {
+  content: '';
+  width: 95.5%;
+  height: 100%;
+  background-color: var(--base-color);
+  position: absolute;
+  z-index: -1;
+  bottom: calc(68 * 100% / 561);
+  left: calc(17 * 100% / 375);
+  border-radius: 0.25rem;
+}
+
+.title {
+  font: 700 2rem 'Open Sans Condensed', sans-serif;
+  margin-bottom: 1rem;
+}
+
+#home .text {
+  text-align: center;
+}
+
+.button {
+  display: inline-flex;
+  margin-top: 1rem;
+
+  background-color: var(--base-color);
+  color: white;
+
+  padding: 1rem 2rem;
+
+  border-radius: 0.25rem;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background-color: red;
+}
