@@ -1,6 +1,12 @@
 #header {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.071);
   background-color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  z-index: 10000;
+  width: 100%;
 }
 
 nav {
@@ -8,4 +14,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+nav .logo {
+  margin-left: 10rem;
+}
+
+nav.show .logo {
+  margin: 0;
 }

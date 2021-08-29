@@ -1,14 +1,15 @@
-#home .image {
+#Home .image {
   position: relative;
 }
 
-#home .image img {
-  width: 90%;
+#Home .image img {
+  width: 100%;
   height: auto;
   border-radius: 0.25rem;
+  
 }
 
-#home .image::before {
+#Home .image::before {
   content: '';
   width: 95.5%;
   height: 100%;
@@ -20,28 +21,10 @@
   border-radius: 0.25rem;
 }
 
-.title {
-  font: 700 2rem 'Open Sans Condensed', sans-serif;
-  margin-bottom: 1rem;
-}
 
-#home .text {
+
+#Home .text {
   text-align: center;
 }
 
-.button {
-  display: inline-flex;
-  margin-top: 1rem;
 
-  background-color: var(--base-color);
-  color: white;
-
-  padding: 1rem 2rem;
-
-  border-radius: 0.25rem;
-  transition: background 0.3s;
-}
-
-.button:hover {
-  background-color: red;
-}

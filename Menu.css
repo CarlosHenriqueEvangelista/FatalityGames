@@ -1,0 +1,57 @@
+.menu ul {
+  visibility: hidden;
+  left: -15rem;
+  transition: left 0.3s;
+}
+
+.menu.show ul {
+  visibility: visible;
+
+  width: 50vw;
+  height: 100vh;
+  background-color: var(--background-menu);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  text-align: center;
+  align-items: center;
+}
+
+.menu ul li a {
+  color: black;
+  transform: translate3d(0px, 0px, 0px);
+  display: inline-flex;
+  transition: transform 0.3s;
+}
+
+.menu ul li a:hover {
+  transform: translate3d(10px, 10px, 0px);
+  color: var(--base-color);
+  text-shadow: -5px 0px 0px rgba(136, 84, 84, 0.199);
+}
+
+.icon-menu {
+  left: 1.5rem;
+
+  background-color: var(--base-color);
+
+  padding: 0.4rem;
+  clip-path: circle();
+}
+
+.icon-close {
+  visibility: hidden;
+  transition: left 0.3s;
+}
+
+.menu.show .icon-close {
+  visibility: visible;
+  left: 15rem;
+  background-color: var(--base-color);
+
+  padding: 0.4rem;
+  clip-path: circle();
+}

@@ -7,20 +7,33 @@
     <title>Fatality Games</title>
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="Menu.css" />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header id="header">
-      <nav>
+      <nav class="menu">
         <a href="#" class="logo">
           <img src="img/logo.png" alt="logo da loja Fatality Games" />
         </a>
-        <div>...</div>
+        <ul class="grid">
+          <li><a class="title" href="#Home">Ínicio</a></li>
+          <li><a class="title" href="#AboutUs">Sobre nós</a></li>
+          <li>
+            <a class="title" href="#OurServices">Oque temos a oferecer</a>
+          </li>
+          <li><a class="title" href="#Testimonials">Depoimentos</a></li>
+          <li><a class="title" href="#MakeAPurchase">Realize uma compra</a></li>
+        </ul>
+        <div class="icon-menu pointers"></div>
+        <div class="icon-close pointers"></div>
       </nav>
     </header>
 
     <main>
-      <section id="home" class="section grid">
+      <section id="Home" class="section grid">
         <div class="image">
           <img
             src="img/75491793_941536799551701_4163674625412169728_n.jpg"
@@ -33,7 +46,13 @@
             Loja de games em Cascavel, onde compramos e vendemos jogos novos e
             usados para todos os gamers
           </p>
-          <a href="#" class="button">Entrar em contato</a>
+          <a href="#" class="button"
+            ><img
+              src="img/MushroomIcon.svg"
+              alt="Icone de cogumelo vermelho do Mario"
+            />
+            Entrar em contato</a
+          >
         </div>
       </section>
 
@@ -43,5 +62,7 @@
     </main>
 
     <footer></footer>
+
+    <script src="Menu.js"></script>
   </body>
 </html>
