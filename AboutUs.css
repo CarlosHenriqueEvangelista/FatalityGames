@@ -1,0 +1,9 @@
+#AboutUs {
+  text-align: center;
+}
+
+#AboutUs img {
+  width: 100%;
+  box-shadow: 0px 0px 12px black;
+  border-radius: 0.25rem;
+}
