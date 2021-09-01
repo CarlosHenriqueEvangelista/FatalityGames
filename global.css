@@ -49,6 +49,8 @@ body {
   border-radius: 0.25rem;
   transition: 0.3s;
   align-items: center;
+
+  cursor: pointer;
 }
 
 .button img {
