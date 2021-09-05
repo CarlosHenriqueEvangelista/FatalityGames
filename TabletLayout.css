@@ -11,6 +11,10 @@
     left: 25rem;
   }
 
+  #Home {
+    max-width: 30rem;
+  }
+
   #Home .image img {
     height: 20rem;
   }
