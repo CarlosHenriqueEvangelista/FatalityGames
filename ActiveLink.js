@@ -12,11 +12,11 @@ window.addEventListener('scroll', function () {
 
     if (imaginaryLineStart && imaginaryLineEnd) {
       document
-        .querySelector('nav ul li a[href*=' + sectionId + ']')
+        .querySelector(`nav ul li a[href*=${sectionId}]`)
         .classList.add('active')
     } else {
       document
-        .querySelector('nav ul li a[href*=' + sectionId + ']')
+        .querySelector(`nav ul li a[href*=${sectionId}]`)
         .classList.remove('active')
     }
   }

@@ -6,14 +6,17 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 html {
   --hue: 273;
   --base-color: hsl(var(--hue), 78%, 25%);
   --background-menu: hsla(var(--hue), 92%, 92%);
-  --body-color: hsla(var(--hue), 99%, 99%);
-  --body-color-second: hsl(var(--hue), 30%, 30%);
+  --body-color: hsla(var(--hue), 85%, 85%);
+  --body-color-second: hsl(var(--hue), 80%, 80%);
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -32,25 +35,35 @@ body {
   gap: 2rem;
 }
 
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
 .title {
   font: 700 2rem 'Teko', sans-serif;
   margin-bottom: 1rem;
 }
 
 .button {
-  display: inline-flex;
+  display: flex;
   margin-top: 1rem;
 
   background-color: var(--base-color);
   color: white;
 
-  padding: 0.5rem 2rem;
+  padding: 0.5rem;
 
   border-radius: 0.25rem;
   transition: 0.3s;
   align-items: center;
 
   cursor: pointer;
+
+  width: 15rem;
+
+  justify-content: center;
+  margin: 1rem auto;
 }
 
 .button img {
@@ -84,7 +97,8 @@ body {
 }
 
 .pointers {
-  font: 700 1.5rem 'Teko', sans-serif;
+  width: 3rem;
+  height: 3rem;
   color: white;
 
   position: fixed;

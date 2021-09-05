@@ -17,9 +17,9 @@ nav {
 }
 
 nav .logo {
-  margin-left: 10rem;
+  margin-left: auto;
 }
 
 nav.show .logo {
-  margin: 0;
+  margin-left: -12rem;
 }

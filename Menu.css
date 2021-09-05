@@ -1,6 +1,6 @@
 .menu ul {
   visibility: hidden;
-  left: -15rem;
+  left: -20rem;
   transition: left 0.3s;
 }
 
@@ -14,7 +14,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1;
 
   text-align: center;
   align-items: center;
@@ -50,7 +50,6 @@
 .menu.show .icon-close {
   visibility: visible;
   left: 15rem;
-  background-color: var(--base-color);
 
   padding: 0.4rem;
   clip-path: circle();

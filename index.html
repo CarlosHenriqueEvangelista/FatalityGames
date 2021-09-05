@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="AboutUs.css" />
     <link rel="stylesheet" href="OurServices.css" />
     <link rel="stylesheet" href="WhatDoTheySayAboutUs.css" />
+    <link rel="stylesheet" href="HowToFindUs.css" />
+    <link rel="stylesheet" href="Footer.css" />
+    <link rel="stylesheet" href="TabletLayout.css" />
+    <link rel="stylesheet" href="DesktopLayout.css" />
 
     <link rel="stylesheet" href="style.css" />
     <link
@@ -32,10 +36,18 @@
             <a class="title" href="#OurServices">Oque temos a oferecer</a>
           </li>
           <li><a class="title" href="#WhatDoTheySayAboutUs">Depoimentos</a></li>
-          <li><a class="title" href="#MakeAPurchase">Realize uma compra</a></li>
+          <li><a class="title" href="#HowToFindUs">Como nos encontrar</a></li>
         </ul>
-        <div class="icon-menu pointers"></div>
-        <div class="icon-close pointers"></div>
+        <img
+          class="icon-menu pointers"
+          src="img/IconMenu.png"
+          alt="Icone de menu Hamburguer"
+        />
+        <img
+          class="icon-close pointers"
+          src="img/IconClose.png"
+          alt="Icone de x para fechar o menu"
+        />
       </nav>
     </header>
 
@@ -81,6 +93,7 @@
             Fugit assumenda sunt laborum doloremque minus, laboriosam ipsam
             consequatur laudantium sequi?
           </p>
+          <a href="#" class="button">Saiba mais </a>
         </div>
       </section>
 
@@ -195,11 +208,7 @@
                   Fatality para verificar e fazer orçamento, no entanto i
                   problema foi resolvido e foram super sinceros entregando o
                   aparelho sem cobrar nada pois havia voltado a funcionar
-                  novamente. Detalhe ficou sem funcionar em casa por 30 dias,
-                  antes de deixar com eles o aparelho ficou em uma outra loja
-                  concorrente por 6 meses e não davam nenhuma resposta. Gratidão
-                  Fatality Games. Honestidade é tudo e vocês são fera, ganharam
-                  meu respeito
+                  novamente.
                 </p>
               </blockquote>
             </div>
@@ -224,19 +233,104 @@
               </blockquote>
             </div>
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev">
+            <img id="leftArrow" src="img/ArrowLeftIcon.png" alt="" />
+          </div>
 
-          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next">
+            <img id="rightArrow" src="img/ArrowRightIcon.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-B"></div>
+
+      <section id="HowToFindUs" class="section grid">
+        <div class="text">
+          <h2 class="title">Como nos encontrar</h2>
+          <p>
+            Você pode optar por uma das nossas loja fisica, funcionamos de
+            segunda a sabado nos seguintes horários:
+          </p>
+          <ul>
+            <li>seg: 09:00 – 18:30</li>
+            <li>ter: 09:00 – 18:30</li>
+            <li>qua: 09:00 – 18:30</li>
+            <li>qui: 09:00 – 18:30</li>
+            <li>sex: 09:00 – 18:30</li>
+            <li>sáb: 09:00 – 17:00</li>
+            <li>dom: Fechado</li>
+          </ul>
+        </div>
+
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7235.302216072824!2d-53.43269727487059!3d-24.9439527860583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94f3d5b57222eb5f%3A0xc74088ae72342b12!2sfatality%20games!3m2!1d-24.943748799999998!2d-53.4334529!5e0!3m2!1spt-BR!2sbr!4v1630763675738!5m2!1spt-BR!2sbr"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="contact">
+          <p>
+            Ou pode entrar em contato via Whatsapp pelo número <br />
+            <strong>+55 45 99807-7023</strong>
+          </p>
+          <img
+            src="img/MarionPointingLeft.png"
+            alt="Mario pixalado apontando para a direita para um icone de whatsapp"
+          />
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=+55 45 99807-7023"
+            ><i class="icon-whatsapp"></i
+          ></a>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <div class="divider-A"></div>
+    <footer id="Footer" class="section grid">
+      <div class="text">
+        <a href="#" class="logo">
+          <img src="img/logo.png" alt="Logo da Fatality Games" />
+        </a>
+        <p>
+          Fatality Games <br />
+          Todo os direitos reservados &copy;
+        </p>
+      </div>
+      <div class="socialNetworks">
+        <p>Veja nossas redes sociais</p>
+        <ul>
+          <a
+            target="_blank"
+            href="https://pt-br.facebook.com/fatalitygamesoriginal/"
+          >
+            <li><i class="icon-facebook2"></i></li>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/fatality_games_cascavel/?hl=pt-br"
+          >
+            <li><i class="icon-instagram"></i></li>
+          </a>
+        </ul>
+      </div>
+      <a href="#Home" class="backToTopButton"
+        ><img
+          src="img/SonicPointingUp.png"
+          alt="Sprite do Sonic apontando para cima"
+      /></a>
+    </footer>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
     <script src="Menu.js"></script>
     <script src="ActiveLink.js"></script>
     <script src="Swiper.js"></script>
+    <script src="ScrollReval.js"></script>
   </body>
 </html>

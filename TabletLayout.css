@@ -1,0 +1,50 @@
+@media (min-width: 767px) {
+  #header nav .logo {
+    margin-left: 5rem;
+  }
+
+  #header .menu.show .logo {
+    margin-left: -12.5rem;
+  }
+
+  #header .menu.show .icon-close {
+    left: 25rem;
+  }
+
+  #Home .image img {
+    height: 20rem;
+  }
+
+  #Home .text .button {
+    width: 15rem;
+  }
+
+  #AboutUs .image img {
+    height: 20rem;
+  }
+
+  #OurServices .cards {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #WhatDoTheySayAboutUs .text {
+    margin-left: 8rem;
+  }
+
+  #WhatDoTheySayAboutUs cite {
+    display: grid;
+    grid-template-columns: 5rem 0.5fr;
+  }
+
+  #HowToFindUs .contact i {
+    left: 21rem;
+  }
+
+  #Footer {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+  }
+}
