@@ -1,5 +1,7 @@
 #WhatDoTheySayAboutUs {
   background-color: var(--body-color-second);
+
+  max-width: 88%;
 }
 
 #WhatDoTheySayAboutUs .testimonials {

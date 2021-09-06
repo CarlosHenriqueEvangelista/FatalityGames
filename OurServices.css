@@ -6,13 +6,16 @@
   gap: 4rem;
 }
 
+#OurServices .text {
+  max-width: 85%;
+}
+
 #OurServices .cards.grid {
   gap: 4rem;
 }
 
 #OurServices .cards {
-  margin-left: 3rem;
-  margin-right: 3rem;
+  max-width: 88%;
 }
 
 #OurServices .cards img {
@@ -22,10 +25,11 @@
 
 #OurServices .card {
   box-shadow: 0px 0px 12px blueviolet;
-  padding: 2rem;
   border-radius: 0.25rem;
   border-top: 10px solid var(--base-color);
   border-bottom: 10px solid var(--base-color);
+
+  padding: 2rem;
 
   position: relative;
 }

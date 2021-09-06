@@ -8,11 +8,11 @@
   visibility: visible;
 
   width: 50vw;
-  height: 100vh;
+  height: 95vh;
   background-color: var(--background-menu);
 
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   z-index: 1;
 
@@ -35,6 +35,7 @@
 
 .icon-menu {
   left: 1.5rem;
+  bottom: 1.5rem;
 
   background-color: var(--base-color);
 

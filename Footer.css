@@ -5,6 +5,8 @@
   position: relative;
 
   background-color: var(--body-color-second);
+
+  max-width: 88%;
 }
 
 #Footer.section {
@@ -54,8 +56,8 @@
 }
 
 .backToTopButton img {
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
 
   position: absolute;
   right: 0;

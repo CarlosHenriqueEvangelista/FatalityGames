@@ -4,9 +4,16 @@
 }
 
 #AboutUs img {
-  width: 100%;
-  box-shadow: 0px 0px 12px black;
+  width: 88%;
+
   border-radius: 0.25rem;
+
+  position: relative;
+  left: -1.3rem;
+}
+
+#AboutUs .text {
+  max-width: 85%;
 }
 
 #AboutUs .button {
