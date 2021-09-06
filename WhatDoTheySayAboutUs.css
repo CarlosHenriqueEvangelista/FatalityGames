@@ -1,7 +1,7 @@
 #WhatDoTheySayAboutUs {
   background-color: var(--body-color-second);
 
-  max-width: 88%;
+  max-width: 100%;
 }
 
 #WhatDoTheySayAboutUs .testimonials {
@@ -28,6 +28,10 @@
   grid-template-columns: 0.2fr 0.5fr;
 
   position: relative;
+
+  white-space: pre;
+
+  text-indent: 0;
 }
 
 #WhatDoTheySayAboutUs .FiveStarsRating {

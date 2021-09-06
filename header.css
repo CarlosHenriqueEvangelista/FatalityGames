@@ -6,7 +6,7 @@
   left: 0;
 
   z-index: 10000;
-  width: 88%;
+  max-width: 100%;
 }
 
 nav {
@@ -18,8 +18,4 @@ nav {
 
 nav .logo {
   margin-left: 4rem;
-}
-
-nav.show .logo {
-  margin-left: -12rem;
 }
