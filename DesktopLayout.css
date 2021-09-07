@@ -38,6 +38,12 @@
     right: 22rem;
   }
 
+  #Home .image img {
+    width: 50%;
+
+    margin-left: 25rem;
+  }
+
   #Home .text {
     order: 0;
 
