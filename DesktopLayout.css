@@ -37,6 +37,8 @@
 
     justify-content: space-between;
     align-items: center;
+
+    max-width: 85%;
   }
 
   #Home .image {
@@ -49,7 +51,7 @@
   }
 
   #Home .image img {
-    width: 50%;
+    width: 65%;
 
     margin-left: 25rem;
   }
@@ -73,6 +75,11 @@
 
   #AboutUs .button {
     margin-left: 5rem;
+  }
+
+  #OurServices {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   #OurServices .cards .card .button {
@@ -113,7 +120,7 @@
   }
 
   #HowToFindUs .contact i {
-    margin-left: 17rem;
+    margin-left: 15rem;
   }
 
   #Footer {
