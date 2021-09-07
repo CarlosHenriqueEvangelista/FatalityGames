@@ -1,5 +1,6 @@
 #Home .image img {
-  min-width: 150%;
+  min-width: 22.5rem;
+  object-fit: cover;
 
   border-radius: 0.25rem;
 }
