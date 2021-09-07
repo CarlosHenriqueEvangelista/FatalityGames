@@ -22,15 +22,15 @@ leftArrow.addEventListener('mouseenter', function () {
 })
 
 leftArrow.addEventListener('mouseleave', function () {
-  document.querySelector('#leftArrow').src = '/img/ArrowLeftIcon.png'
+  document.querySelector('#leftArrow').src = 'img/ArrowLeftIcon.png'
 })
 
 rightArrow.addEventListener('mouseenter', function () {
-  document.querySelector('#rightArrow').src = '/img/ArrowRightIcon2.png'
+  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon2.png'
 })
 
 rightArrow.addEventListener('mouseleave', function () {
-  document.querySelector('#rightArrow').src = '/img/ArrowRightIcon.png'
+  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon.png'
 })
 
 leftArrow.addEventListener('touchstart', function () {
@@ -38,5 +38,13 @@ leftArrow.addEventListener('touchstart', function () {
 })
 
 rightArrow.addEventListener('touchstart', function () {
-  document.querySelector('#rightArrow').src = '/img/ArrowRightIcon2.png'
+  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon2.png'
+})
+
+leftArrow.addEventListener('touchend', function () {
+  document.querySelector('#leftArrow').src = 'img/ArrowLeftIcon.png'
+})
+
+rightArrow.addEventListener('touchend', function () {
+  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon.png'
 })
