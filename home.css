@@ -1,5 +1,7 @@
 #Home .image img {
   min-width: 150%;
+
+  border-radius: 0.25rem;
 }
 
 #Home .text {
