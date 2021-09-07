@@ -40,11 +40,3 @@ leftArrow.addEventListener('touchstart', function () {
 rightArrow.addEventListener('touchstart', function () {
   document.querySelector('#rightArrow').src = 'img/ArrowRightIcon2.png'
 })
-
-leftArrow.addEventListener('touchend', function () {
-  document.querySelector('#leftArrow').src = 'img/ArrowLeftIcon.png'
-})
-
-rightArrow.addEventListener('touchend', function () {
-  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon.png'
-})
