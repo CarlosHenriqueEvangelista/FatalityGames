@@ -82,6 +82,10 @@
     margin-right: 1.5rem;
   }
 
+  #OurServices .text {
+    margin: auto;
+  }
+
   #OurServices .cards .card .button {
     margin: 1rem auto;
   }
