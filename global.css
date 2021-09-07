@@ -90,7 +90,6 @@ body {
 }
 .divider-A {
   height: 1px;
-  width: 88%;
   background: linear-gradient(
     270deg,
     hsla(var(--hue), 36%, 57%, 1),
@@ -100,7 +99,6 @@ body {
 
 .divider-B {
   height: 1px;
-  width: 88%;
   background: linear-gradient(
     270deg,
     hsla(var(--hue), 65%, 88%, 0.34),

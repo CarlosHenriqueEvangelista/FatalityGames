@@ -1,14 +1,20 @@
 @media (min-width: 767px) {
   #header nav .logo {
-    margin-left: 5rem;
+    display: grid;
+    justify-content: center;
   }
 
-  #header .menu.show .logo {
-    margin-left: -12.5rem;
+  .menu.show .icon-close {
+    left: 27rem;
   }
 
-  #header .menu.show .icon-close {
-    left: 25rem;
+  #Home .image img {
+    width: 100%;
+    height: 30rem;
+  }
+
+  #Home .text {
+    margin-left: 3rem;
   }
 
   #AboutUs .image img {
@@ -30,8 +36,13 @@
     grid-template-columns: 5rem 0.5fr;
   }
 
+  #HowToFindUs .contact img {
+    margin-left: -20rem;
+  }
+
   #HowToFindUs .contact i {
-    left: 21rem;
+    left: 23rem;
+    top: 8rem;
   }
 
   #Footer {
