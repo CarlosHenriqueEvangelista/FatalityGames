@@ -2,24 +2,33 @@
   #header {
     display: grid;
     align-items: center;
+    justify-content: left;
   }
 
-  #header .menu .logo {
-    margin-left: 0;
-    margin-right: 15rem;
+  #header .logo {
+    order: 0;
+
+    margin-left: 5rem;
   }
 
-  #header .menu ul {
+  #header .menu {
+    order: 1;
+  }
+
+  .menu ul {
     visibility: visible;
 
     display: flex;
+
+    margin-left: 50rem;
+    margin-top: -4rem;
   }
 
-  #header .menu ul li a {
+  .menu ul li a {
     font-size: 1.5rem;
   }
 
-  #header .pointers {
+  .pointers {
     visibility: hidden;
   }
 
@@ -27,6 +36,7 @@
     grid-auto-flow: column;
 
     justify-content: space-between;
+    align-items: center;
   }
 
   #Home .image {

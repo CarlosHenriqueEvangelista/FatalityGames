@@ -17,6 +17,8 @@ html {
   --body-color-second: hsl(var(--hue), 80%, 80%);
 
   scroll-behavior: smooth;
+
+  max-width: 100%;
 }
 
 body {
