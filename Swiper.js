@@ -32,3 +32,11 @@ rightArrow.addEventListener('mouseenter', function () {
 rightArrow.addEventListener('mouseleave', function () {
   document.querySelector('#rightArrow').src = '/img/ArrowRightIcon.png'
 })
+
+leftArrow.addEventListener('touchstart', function () {
+  document.querySelector('#leftArrow').src = 'img/ArrowLeftIcon2.png'
+})
+
+rightArrow.addEventListener('touchstart', function () {
+  document.querySelector('#rightArrow').src = '/img/ArrowRightIcon2.png'
+})

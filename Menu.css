@@ -50,7 +50,7 @@
 }
 
 .menu.show .icon-menu {
-  transform: translateX(150%);
+  transform: translateX(200%);
 }
 
 .menu .icon-close {
