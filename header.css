@@ -6,7 +6,7 @@
   left: 0;
 
   z-index: 10000;
-  max-width: 100%;
+  width: 100%;
 }
 
 nav {
@@ -17,5 +17,6 @@ nav {
 }
 
 nav .logo {
-  margin-left: 4rem;
+  display: grid;
+  justify-content: center;
 }

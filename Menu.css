@@ -11,16 +11,19 @@
   visibility: visible;
 
   width: 50vw;
-  height: 95vh;
+  height: 105vh;
   background-color: var(--background-menu);
 
   position: fixed;
-  top: 5.5rem;
+  bottom: 0;
   left: 0;
   z-index: 2000000;
 
   text-align: center;
   align-items: center;
+  place-content: center;
+
+  gap: 2.5rem;
 }
 
 .menu ul li a {
@@ -37,17 +40,22 @@
 }
 
 .icon-menu {
-  left: 1.5rem;
-  bottom: 1.5rem;
-
   background-color: var(--base-color);
 
   padding: 0.4rem;
   clip-path: circle();
+
+  transform: translateX(0);
+  transition: 0.3s;
 }
 
-.icon-close {
+.menu.show .icon-menu {
+  transform: translateX(150%);
+}
+
+.menu .icon-close {
   visibility: hidden;
+  left: 0;
   transition: left 0.3s;
 }
 
