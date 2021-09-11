@@ -6,61 +6,50 @@
   position: fixed;
 }
 
-.menu.show ul {
+.menu.showMenu ul {
   visibility: visible;
 
-  width: 50vw;
+  width: 55vw;
   height: 100vh;
   background-color: var(--background-menu);
 
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2000000;
 
   text-align: center;
-  align-items: center;
   place-content: center;
 
   gap: 1.5rem;
-
-  margin-bottom: -2rem;
 }
 
 .menu ul li a {
   color: black;
-  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 10px);
   display: inline-flex;
   transition: transform 0.3s;
 }
 
 .menu ul li a:hover,
 .menu ul li a.active {
-  transform: translate3d(10px, 10px, 0px);
+  transform: translate3d(10px, 10px, 10px);
   color: var(--base-color);
 }
 
 .icon-menu {
-  background-color: var(--base-color);
-
-  padding: 0.4rem;
-  clip-path: circle();
-
   transform: translateX(0);
   transition: 0.3s;
 }
 
-.menu.show .icon-menu {
+.menu.showMenu .icon-menu {
   transform: translateX(200%);
 }
 
 .menu .icon-close {
-  visibility: hidden;
-  left: 0;
+  left: -10rem;
   transition: left 0.3s;
 }
 
-.menu.show .icon-close {
-  visibility: visible;
+.menu.showMenu .icon-close {
   left: 13rem;
 }
