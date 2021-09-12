@@ -5,14 +5,4 @@
 
 #AboutUs img {
   width: 100%;
-
-  border-radius: 0.25rem;
-
-  position: relative;
-}
-
-#AboutUs .text {
-  max-width: 85%;
-
-  margin-left: 1.5rem;
 }

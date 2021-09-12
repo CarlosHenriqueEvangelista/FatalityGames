@@ -35,6 +35,11 @@ body {
   gap: 2rem;
 }
 
+.centerTheText {
+  margin-left: 1.5rem;
+  max-width: 85%;
+}
+
 .logo {
   width: 5rem;
   height: 5rem;
