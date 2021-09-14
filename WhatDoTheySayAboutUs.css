@@ -1,39 +1,39 @@
 #WhatDoTheySayAboutUs {
   background-color: var(--body-color-second);
-
-  max-width: 100%;
 }
 
-#WhatDoTheySayAboutUs .text {
-  margin: 0 auto 5rem auto;
+#WhatDoTheySayAboutUs .swiper {
+  margin: 0 0.5rem;
 }
 
-#WhatDoTheySayAboutUs .text h2 {
-  margin-left: 2rem;
+#WhatDoTheySayAboutUs .centerTheText {
+  margin-left: 4rem;
+  margin-bottom: 5rem;
 }
 
 #WhatDoTheySayAboutUs .swiper-slide {
   box-shadow: 0px 0px 12px blueviolet;
   padding: 2rem;
-
-  text-indent: 50px;
 }
 
 #WhatDoTheySayAboutUs cite {
   display: grid;
-  grid-template-columns: 0.2fr 0.5fr;
+  grid-template-columns: 50px;
+  grid-template-areas:
+    'img1 p'
+    'img1 img2';
+}
 
-  position: relative;
+#WhatDoTheySayAboutUs cite img {
+  grid-area: img1;
+}
 
-  white-space: pre;
-
-  text-indent: 0;
+#WhatDoTheySayAboutUs cite p {
+  grid-area: p;
 }
 
 #WhatDoTheySayAboutUs .FiveStarsRating {
-  position: absolute;
-  left: 5rem;
-  top: 2rem;
+  grid-area: img2;
 }
 
 #WhatDoTheySayAboutUs .swiper {
