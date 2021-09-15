@@ -8,7 +8,7 @@
 
 #WhatDoTheySayAboutUs .centerTheText {
   margin-left: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1.5rem;
 }
 
 #WhatDoTheySayAboutUs .swiper-slide {
@@ -43,16 +43,14 @@
 #WhatDoTheySayAboutUs .swiper-button-prev,
 #WhatDoTheySayAboutUs .swiper-button-next {
   position: absolute;
-  top: -3rem;
+  top: 20rem;
+  margin: 0 1.5rem;
 }
 
 #WhatDoTheySayAboutUs .swiper-button-prev img,
 #WhatDoTheySayAboutUs .swiper-button-next img {
-  width: 3rem;
-  height: 3rem;
-  background-color: rgba(0, 0, 0, 0.712);
-  border-radius: 0.25rem;
-  transition: background 0.3s;
+  width: 5rem;
+  height: 5rem;
 }
 
 #WhatDoTheySayAboutUs .swiper-button-next::after,

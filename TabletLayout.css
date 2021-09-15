@@ -27,6 +27,19 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  #WhatDoTheySayAboutUs .swiper {
+    justify-content: center;
+  }
+
+  #WhatDoTheySayAboutUs .swiper-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  #WhatDoTheySayAboutUs .swiper-slide {
+    max-width: 98%;
+  }
+
   #WhatDoTheySayAboutUs .text {
     margin-left: 8rem;
   }
