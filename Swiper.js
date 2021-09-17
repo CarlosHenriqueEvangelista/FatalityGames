@@ -24,7 +24,7 @@ const leftArrow = document.querySelector('#leftArrow')
 const rightArrow = document.querySelector('#rightArrow')
 
 leftArrow.addEventListener('mouseenter', function () {
-  document.querySelector('#leftArrow').src = 'img/HandPointingLeftActive.png'
+  document.querySelector('#leftArrow').src = 'img/handPointingLeftActive.png'
 })
 
 leftArrow.addEventListener('mouseleave', function () {
@@ -32,7 +32,7 @@ leftArrow.addEventListener('mouseleave', function () {
 })
 
 rightArrow.addEventListener('mouseenter', function () {
-  document.querySelector('#rightArrow').src = 'img/HandPointingRightActive.png'
+  document.querySelector('#rightArrow').src = 'img/handPointingRightActive.png'
 })
 
 rightArrow.addEventListener('mouseleave', function () {
@@ -40,9 +40,9 @@ rightArrow.addEventListener('mouseleave', function () {
 })
 
 leftArrow.addEventListener('touchstart', function () {
-  document.querySelector('#leftArrow').src = 'img/HandPointingLeftActive.png'
+  document.querySelector('#leftArrow').src = 'img/handPointingLeftActive.png'
 })
 
 rightArrow.addEventListener('touchstart', function () {
-  document.querySelector('#rightArrow').src = 'img/HandPointingRightActive.png'
+  document.querySelector('#rightArrow').src = 'img/handPointingRightActive.png'
 })

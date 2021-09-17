@@ -1,9 +1,11 @@
 const scrollReveal = ScrollReveal({
   origin: 'left',
+  distance: '30px',
   duration: 700,
 
   rotate: {
-    y: 200
+    x: 80,
+    y: 80
   }
 })
 
