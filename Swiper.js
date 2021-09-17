@@ -6,43 +6,37 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev'
   },
 
+  mousewheel: true,
+  keyboard: true,
   effect: 'flip',
   grabCursor: true,
   loop: true,
-  speed: 500,
-
-  breakpoints: {
-    767: {
-      slidesPerView: 3,
-      effect: 'none',
-      loop: false
-    }
-  }
+  speed: 500
 })
 
 const leftArrow = document.querySelector('#leftArrow')
 const rightArrow = document.querySelector('#rightArrow')
 
 leftArrow.addEventListener('mouseenter', function () {
-  document.querySelector('#leftArrow').src = 'img/handPointingLeftActive.png'
+  document.querySelector('#leftArrow').src = 'img/ArrowLeftIcon2.png'
 })
 
 leftArrow.addEventListener('mouseleave', function () {
-  document.querySelector('#leftArrow').src = 'img/handPointingLeft.png'
+  document.querySelector('#leftArrow').src = 'img/ArrowLeftIcon.png'
 })
 
 rightArrow.addEventListener('mouseenter', function () {
-  document.querySelector('#rightArrow').src = 'img/handPointingRightActive.png'
+  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon2.png'
 })
 
 rightArrow.addEventListener('mouseleave', function () {
-  document.querySelector('#rightArrow').src = 'img/handPointingRight.png'
+  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon.png'
 })
 
 leftArrow.addEventListener('touchstart', function () {
-  document.querySelector('#leftArrow').src = 'img/handPointingLeftActive.png'
+  document.querySelector('#leftArrow').src = 'img/ArrowLeftIcon2.png'
 })
 
 rightArrow.addEventListener('touchstart', function () {
-  document.querySelector('#rightArrow').src = 'img/handPointingRightActive.png'
+  document.querySelector('#rightArrow').src = 'img/ArrowRightIcon2.png'
 })
