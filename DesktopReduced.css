@@ -1,0 +1,9 @@
+@media (min-width: 432px) {
+  #Home .image img {
+    width: 100%;
+  }
+
+  .centerTheText {
+    margin-left: 2rem;
+  }
+}
