@@ -21,13 +21,11 @@ html {
 
 body {
   background-color: var(--body-color);
-  font: 100 1rem 'Teko', sans-serif;
-  font-size: 1.5rem;
+  font: 100 1.5rem 'Teko', sans-serif;
 }
 
 .section {
   padding: 7rem 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.071);
 }
 
 .grid {
@@ -36,7 +34,8 @@ body {
 }
 
 .centerTheText {
-  margin-left: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 85%;
 }
 
@@ -52,7 +51,6 @@ body {
 
 .button {
   display: flex;
-  margin-top: 1rem;
 
   background-color: var(--base-color);
   color: white;
@@ -60,8 +58,6 @@ body {
   padding: 0.5rem;
 
   border-radius: 0.25rem;
-  transition: 0.3s;
-  align-items: center;
 
   cursor: pointer;
 
@@ -93,6 +89,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .divider-A {
   height: 1px;
   background: linear-gradient(
@@ -114,12 +111,10 @@ body {
 .pointers {
   width: 3rem;
   height: 3rem;
-  color: white;
 
   position: fixed;
   bottom: 5rem;
   right: 2rem;
 
   cursor: pointer;
-  z-index: 2000000;
 }

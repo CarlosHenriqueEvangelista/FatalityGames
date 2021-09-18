@@ -1,13 +1,11 @@
 @media (min-width: 969px) {
   #header {
-    display: grid;
-    justify-content: left;
   }
 
-  #header .logo {
+  #header nav .logo {
     order: 0;
 
-    margin-left: 5rem;
+    margin-left: -65rem;
   }
 
   #header .menu {
@@ -19,7 +17,7 @@
 
     display: flex;
 
-    margin-left: 50rem;
+    margin-left: 30rem;
   }
 
   .menu ul li a {
@@ -67,8 +65,6 @@
 
   #AboutUs .text {
     max-width: 25rem;
-
-    margin-right: -20rem;
   }
 
   #AboutUs .button {
@@ -90,6 +86,19 @@
 
   #WhatDoTheySayAboutUs .text {
     margin-left: 25rem;
+  }
+
+  #WhatDoTheySayAboutUs .swiper {
+    margin-left: 5rem;
+  }
+
+  #WhatDoTheySayAboutUs .swiper-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+  }
+
+  #WhatDoTheySayAboutUs .swiper-slide {
+    max-width: 85%;
   }
 
   #HowToFindUs {
@@ -122,7 +131,7 @@
   }
 
   #HowToFindUs .contact i {
-    margin-left: 15rem;
+    margin-left: 17rem;
   }
 
   #Footer {
@@ -133,8 +142,12 @@
     margin-left: 2rem;
   }
 
+  #Footer .socialNetworks {
+    margin-left: 6rem;
+  }
+
   #Footer .socialNetworks ul {
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
   }
 
   #Footer .backToTopButton img {

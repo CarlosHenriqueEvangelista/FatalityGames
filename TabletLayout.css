@@ -1,11 +1,22 @@
 @media (min-width: 767px) {
   #header nav .logo {
-    display: grid;
-    justify-content: center;
+    margin-left: -35rem;
   }
 
-  .menu.show .icon-close {
-    left: 27rem;
+  .menu ul {
+    visibility: visible;
+    left: 0;
+
+    display: flex;
+    margin-left: 15rem;
+  }
+
+  .menu ul li a {
+    font-size: 1rem;
+  }
+
+  .menu .icon-menu {
+    visibility: hidden;
   }
 
   #Home .image img {
@@ -31,9 +42,9 @@
     margin-left: 8rem;
   }
 
-  #WhatDoTheySayAboutUs cite {
-    display: grid;
-    grid-template-columns: 5rem 0.5fr;
+  #WhatDoTheySayAboutUs .swiper-button-prev,
+  #WhatDoTheySayAboutUs .swiper-button-next {
+    top: 15rem;
   }
 
   #HowToFindUs .contact img {
@@ -41,7 +52,7 @@
   }
 
   #HowToFindUs .contact i {
-    left: 23rem;
+    left: 20rem;
     top: 8rem;
   }
 
@@ -49,5 +60,9 @@
     display: grid;
     grid-auto-flow: column;
     align-items: center;
+  }
+
+  #Footer .text .logo {
+    margin-left: 0;
   }
 }

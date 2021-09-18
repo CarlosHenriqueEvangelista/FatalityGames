@@ -1,5 +1,27 @@
-@media (min-width: 485px) {
+@media (min-width: 459px) {
+  .menu.showMenu .icon-close {
+    left: 17rem;
+  }
+
   #Home .image img {
     width: 100%;
+  }
+
+  #HowToFindUs .contact img {
+    margin-left: -20rem;
+  }
+
+  #HowToFindUs .contact i {
+    left: 12rem;
+    top: 8rem;
+  }
+
+  #Footer .text .logo {
+    margin-left: 8rem;
+  }
+
+  #Footer .backToTopButton img {
+    width: 7rem;
+    height: 7rem;
   }
 }
