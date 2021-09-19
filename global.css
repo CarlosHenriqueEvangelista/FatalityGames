@@ -24,6 +24,10 @@ body {
   font: 100 1.5rem 'Teko', sans-serif;
 }
 
+section {
+  width: 100%;
+}
+
 .section {
   padding: 7rem 0;
 }
