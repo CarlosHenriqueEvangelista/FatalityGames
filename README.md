@@ -1,8 +1,8 @@
-<a href="#-FatalityGames">FatalityGames</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;
+<a href="#-FatalityGames">FatalityGames</a> |
 
-<a href="#-Projeto">Projeto</a>&nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;
+<a href="#-Projeto">Projeto</a>|
 
-<a href="#-Tecnologias">Tecnologias</a>&nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;
+<a href="#-Tecnologias">Tecnologias</a>
 
 ## FatalityGames
 
@@ -21,7 +21,7 @@
 ## 💻 Projeto:
 
 O projeto da **FatalityGames** foi criado em cima do modelo do projeto **OriginSix**, feito pelo Mayk Brito em uma nlw.
-Então dará para ver muitas semelhanças entre os dois, como: Serem uma One page (Por enquanto), e serem separados pelas seções: Header, Home, Sobre, Serviços, Depoimentos, Contato, e Footer.
+Então dará para ver muitas semelhanças entre os dois, como: Serem uma One page (Por enquanto), e serem separados pelas seções: Header, Home, Sobre, Serviços, Depoimentos, Contato, e Footer. <br />
 [Projeto OriginSix](https://github.com/rocketseat-education/nlw-06-origin)
 
 ## 📱 Tecnoligias:
