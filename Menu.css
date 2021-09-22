@@ -37,19 +37,22 @@
 }
 
 .icon-menu {
-  transform: translateX(0);
   transition: 0.3s;
 }
 
 .menu.showMenu .icon-menu {
-  transform: translateX(200%);
+  transform: rotate(360deg);
+  opacity: 0;
 }
 
 .menu .icon-close {
-  left: -10rem;
-  transition: left 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+
+  z-index: -1;
 }
 
 .menu.showMenu .icon-close {
-  left: 13rem;
+  transform: rotate(-360deg);
+  opacity: 1;
 }

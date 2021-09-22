@@ -7,6 +7,12 @@
 
   z-index: 10000;
   width: 100%;
+
+  transition: 0.3s;
+}
+
+#header.HiddenHeader {
+  top: -10rem;
 }
 
 nav {

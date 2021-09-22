@@ -17,3 +17,4 @@ scrollReveal.reveal(
 #Footer .text, #Footer .socialNetworks  #Footer .backToTopButton`,
   { interval: 100 }
 )
+
