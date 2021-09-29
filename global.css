@@ -74,6 +74,16 @@ section {
   z-index: 100;
 }
 
+@keyframes levitate {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(0, 0.5rem);
+  }
+}
+
 .button::before {
   content: '';
   background-color: blueviolet;
@@ -87,6 +97,15 @@ section {
   transition: 0.3s;
   z-index: -1;
   border-radius: 0.25rem;
+}
+
+.button:hover {
+  animation: levitate 1.2s alternate ease-in-out infinite;
+}
+
+.button:visited {
+  background-color: blueviolet;
+  animation: levitate 1.2s alternate ease-in-out infinite;
 }
 
 .button:hover::before {

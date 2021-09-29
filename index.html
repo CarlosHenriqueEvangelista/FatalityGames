@@ -26,32 +26,28 @@
   </head>
   <body>
     <header id="header">
-      <nav class="menu">
-        <a href="#" class="logo">
-          <img
-            src="img/LOGO_FATALITY-1.png"
-            alt="logo da loja Fatality Games"
-          />
-        </a>
-        <ul class="grid">
+      <nav>
+        <input type="checkbox" id="ShowMenu" />
+        <label for="ShowMenu"
+          ><img
+            src="img/IconMenu.png"
+            alt="Icone do hamburguer para abrir o menu"
+        /></label>
+        <label for="ShowMenu"
+          ><img src="img/IconClose.png" alt="Icone de um X para fechar o menu"
+        /></label>
+        <img src="img/LOGO_FATALITY-1.png" alt="Logo da Fatality Games" />
+        <ul class="menu grid">
           <li><a class="title" href="#Home">Ínicio</a></li>
           <li><a class="title" href="#AboutUs">Sobre nós</a></li>
+          <li><a class="title" href="#OurServices">Nossos serviços</a></li>
           <li>
-            <a class="title" href="#OurServices">Oque temos a oferecer</a>
+            <a class="title" href="#WhatDoTheySayAboutUs"
+              >Oque dizem sobre nós</a
+            >
           </li>
-          <li><a class="title" href="#WhatDoTheySayAboutUs">Depoimentos</a></li>
           <li><a class="title" href="#HowToFindUs">Como nos encontrar</a></li>
         </ul>
-        <img
-          class="icon-menu pointers"
-          src="img/IconMenu.png"
-          alt="Icone de menu Hamburguer"
-        />
-        <img
-          class="icon-close pointers"
-          src="img/IconClose.png"
-          alt="Icone de x para fechar o menu"
-        />
       </nav>
     </header>
 
@@ -253,6 +249,7 @@
             <li>sáb: 09:00 – 17:00</li>
             <li>dom: Fechado</li>
           </ul>
+          <span></span>
         </div>
 
         <div class="maps">
@@ -325,5 +322,6 @@
     <script src="Swiper.js"></script>
     <script src="ScrollReval.js"></script>
     <script src="HiddenHeader.js"></script>
+    <script src="WeOpenNow.js"></script>
   </body>
 </html>

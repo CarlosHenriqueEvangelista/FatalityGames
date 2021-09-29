@@ -58,9 +58,3 @@
 #WhatDoTheySayAboutUs .swiper-button-prev::after {
   content: '';
 }
-
-#WhatDoTheySayAboutUs .button {
-  position: absolute;
-  top: 17rem;
-  left: 30rem;
-}

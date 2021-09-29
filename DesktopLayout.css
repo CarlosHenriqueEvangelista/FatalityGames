@@ -9,16 +9,12 @@
     order: 1;
   }
 
-  .menu ul {
-    visibility: visible;
-
-    display: flex;
-
-    margin-left: 30rem;
+  input ~ .menu {
+    left: -50rem;
   }
 
-  .menu ul li a {
-    font-size: 1.5rem;
+  input:checked ~ .menu {
+    width: 25vw;
   }
 
   .pointers {
@@ -98,6 +94,12 @@
     max-width: 85%;
   }
 
+  #WhatDoTheySayAboutUs .button {
+    position: absolute;
+    top: 17rem;
+    left: 27rem;
+  }
+
   #HowToFindUs {
     position: relative;
   }
@@ -112,6 +114,12 @@
     position: absolute;
     right: 10rem;
     top: 10rem;
+  }
+
+  #HowToFindUs span {
+    position: absolute;
+    bottom: -30rem;
+    right: 8.5rem;
   }
 
   #HowToFindUs .maps iframe {
