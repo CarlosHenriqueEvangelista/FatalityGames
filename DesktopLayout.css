@@ -1,24 +1,10 @@
 @media (min-width: 969px) {
-  #header nav .logo {
-    order: 0;
-
-    margin-left: -65rem;
-  }
-
-  #header .menu {
-    order: 1;
-  }
-
-  input ~ .menu {
+ .menu {
     left: -50rem;
   }
 
   input:checked ~ .menu {
     width: 25vw;
-  }
-
-  .pointers {
-    visibility: hidden;
   }
 
   #Home {
@@ -78,7 +64,7 @@
   }
 
   #WhatDoTheySayAboutUs .text {
-    margin-left: 25rem;
+    margin-left:auto;
   }
 
   #WhatDoTheySayAboutUs .swiper {
@@ -96,8 +82,8 @@
 
   #WhatDoTheySayAboutUs .button {
     position: absolute;
-    top: 17rem;
-    left: 27rem;
+    top: 22rem;
+    left: 29rem;
   }
 
   #HowToFindUs {
@@ -109,17 +95,15 @@
   }
 
   #HowToFindUs .text ul {
-    margin-top: 5rem;
-
     position: absolute;
     right: 10rem;
-    top: 10rem;
+    top: 15rem;
   }
 
   #HowToFindUs span {
     position: absolute;
     bottom: -30rem;
-    right: 8.5rem;
+    right: 9rem;
   }
 
   #HowToFindUs .maps iframe {
@@ -145,10 +129,6 @@
 
   #Footer .text p {
     margin-left: 2rem;
-  }
-
-  #Footer .socialNetworks {
-    margin-left: 6rem;
   }
 
   #Footer .socialNetworks ul {

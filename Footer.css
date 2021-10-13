@@ -1,21 +1,14 @@
 #Footer {
-  padding: 0;
+  padding-top: 2rem;
 
   position: relative;
 
   background-color: var(--body-color-second);
 }
 
-#Footer.section {
-  padding-top: 2rem;
-}
 
 #Footer .logo {
   margin-left: 5rem;
-}
-
-#Footer .text p {
-  margin-top: 2rem;
 }
 
 #Footer .socialNetworks ul {
@@ -28,8 +21,7 @@
 #Footer .socialNetworks ul a li {
   font-size: 2rem;
   color: var(--base-color);
-  height: 50px;
-  position: relative;
+
   transition: 0.3s;
 }
 
@@ -38,8 +30,8 @@
 }
 
 .backToTopButton img {
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: 7rem;
 
   position: absolute;
   right: 0;

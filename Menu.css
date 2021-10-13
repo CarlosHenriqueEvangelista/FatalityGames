@@ -1,7 +1,7 @@
 .menu {
   background-color: var(--background-menu);
   height: 100vh;
-  width: 57vw;
+  width: 55vw;
   left: -20rem;
   position: fixed;
   top: 0;
@@ -60,7 +60,6 @@ nav input:checked ~ label img[src='img/IconMenu.png'] {
 .menu a.active {
   display: block;
   animation: chanceText 1s alternate forwards;
-  margin: 0;
 }
 
 @keyframes chanceText {

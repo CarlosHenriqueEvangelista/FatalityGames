@@ -14,7 +14,6 @@ scrollReveal.reveal(
 #OurServices .text, #OurServices .cards .card,
 #WhatDoTheySayAboutUs .text, #WhatDoTheySayAboutUs .swiper,
 #HowToFindUs .text, #HowToFindUs .maps, #HowToFindUs .contact,
-#Footer .text, #Footer .socialNetworks  #Footer .backToTopButton`,
+#Footer .text, #Footer .socialNetworks  `,
   { interval: 100 }
 )
-

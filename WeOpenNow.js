@@ -19,10 +19,6 @@ if (getDay === 0) {
   span.style.fontSize = '4rem'
 }
 
-console.log(HoursAndMinutes)
-
-getDay - date.getDay()
-
 if (getDay === 6 && getHours >= 17) {
   span.innerHTML = 'FECHADO'
   span.style.color = 'red'

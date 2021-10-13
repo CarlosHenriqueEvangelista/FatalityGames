@@ -3,13 +3,18 @@
     width: 100%;
   }
 
+  #WhatDoTheySayAboutUs .swiper-button-prev,
+  #WhatDoTheySayAboutUs .swiper-button-next {
+  margin: 0 1.5rem;
+}
+
   #HowToFindUs .contact img {
     margin-left: -15rem;
   }
 
   #HowToFindUs .contact i {
     left: 12rem;
-    top: 8rem;
+    top: 7rem;
   }
 
   #Footer .text .logo {

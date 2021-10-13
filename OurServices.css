@@ -1,19 +1,11 @@
-#OurServices {
-  text-align: center;
-}
-
 #OurServices .cards.grid {
   gap: 4rem;
 }
 
 #OurServices .cards {
-  max-width: 100%;
+  text-align: center;
 }
 
-#OurServices .cards img {
-  width: 9rem;
-  height: 9rem;
-}
 
 #OurServices .card {
   box-shadow: 0 0 12px blueviolet;
@@ -44,8 +36,9 @@
 }
 
 #OurServices .card img {
-  transform: scale(100%);
   transition: 0.3s;
+  width: 9rem;
+  height: 9rem;
 }
 
 #OurServices .card:hover img {
